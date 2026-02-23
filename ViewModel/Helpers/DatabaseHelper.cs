@@ -11,7 +11,7 @@ namespace NotesApp.ViewModel.Helpers
 {
     public class DatabaseHelper
     {
-        private static string dbPath = "https://notes-app-bc6ce-default-rtdb.firebaseio.com/";
+        private static string dbPath = "PUT_YOUR_FIREBASE_DATABASE_URL_HERE";
 
         public static async Task<List<T>> Read<T>()
         {

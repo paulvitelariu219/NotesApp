@@ -83,7 +83,7 @@ namespace NotesApp.View
 
         private async Task<string> UpdateFile(string rtfFilePath, string fileName)
         {
-            string connectionString = "DefaultEndpointsProtocol=https;AccountName=cloneevernotestorace;AccountKey=AxMXTn1JsbCE8687biJPhSyYCrCY/KnFGB1jCaRDMOuR6C0AGRByBhy30O/G/7raW2vwJ2G95u8++ASt2+hqwg==;EndpointSuffix=core.windows.net";
+            string connectionString = "PUT_YOUR_CONNECTION_STRING_HERE";
             string containerName = "notes";
 
             var container = new BlobContainerClient(connectionString, containerName);

@@ -13,7 +13,7 @@ namespace NotesApp.ViewModel.Helpers
 {
     public class FirebaseHelper
     {
-        private static string api_key = "AIzaSyDRMnEtAo4QmBWMelk_seYY5RGvhgdLaHw";
+        private static string api_key = "PUT_YOUR_FIREBASE_API_KEY_HERE";
         public class FirebaseResult
         {
             public string kind { get; set; }
